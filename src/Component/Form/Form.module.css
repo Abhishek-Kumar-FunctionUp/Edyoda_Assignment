@@ -2,8 +2,8 @@
 
 .container {
   background-color: rgba(255, 255, 255, 1);
-  width: 25vw;
-  height: 80vh;
+  /* width: 25vw; */
+  /* height: 80vh; */
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;

@@ -108,8 +108,12 @@ export default function Form() {
           </label>
         </div>
       )}
-      <div className={style.expired_flag}><p>Offer expired</p></div>
-     <div className={style.recommend_flag}><p>Recommended</p></div>
+      <div className={style.expired_flag}>
+        <p>Offer expired</p>
+      </div>
+      <div className={style.recommend_flag}>
+        <p>Recommended</p>
+      </div>
       <div className={style.subscription_Container}>
         <p className={style.subscription}>Subscription Fee</p>
         <p className={style.fee}>₹18,500</p>
@@ -126,7 +130,14 @@ export default function Form() {
 
       <div className={style.btn}>
         <button className={style.cancel}>CANCEL</button>
-        <button className={style.pay}>PROCEED TO PAY</button>
+        <button
+          className={style.pay}
+          onClick={() => {
+            alert(`You have sucessfully subscribed ₹${value}`);
+          }}
+        >
+          PROCEED TO PAY
+        </button>
       </div>
       <div className={style.razorContainer}>
         <img src={razor} alt="razorPay" />
