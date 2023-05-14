@@ -1,10 +1,9 @@
-import React from 'react';
-import Navbar from './Component/Navbar/Navbar';
-import Form from './Component/Form/Form';
+import React from "react";
+import Navbar from "./Component/Navbar/Navbar";
+import Form from "./Component/Form/Form";
 import "./style.css";
 import style from "./App.module.css";
-import Content from "./Component/Content/Content"
-
+import Content from "./Component/Content/Content";
 
 export default function App() {
   return (
@@ -12,12 +11,11 @@ export default function App() {
       <Navbar />
       <div className={style.wrapper}>
         <div className={style.left}>
-         <Content />
+          <Content />
         </div>
         <div className={style.right}>
-        <Form/>
+          <Form />
         </div>
-
       </div>
     </div>
   );
