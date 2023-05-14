@@ -42,8 +42,6 @@
   display: flex;
   align-items: center;
   cursor: pointer;
- 
-   justify-content:space-between;
 
 }
 
@@ -54,6 +52,7 @@
   font-size: 0.7rem;
   color: #3C4852;
   font-weight: 600;
+  width: 22vw;
 }
 .labelDiv{
   display: flex;
@@ -103,7 +102,8 @@ color: #BEBEBE;
   font-size: 0.7rem;
   color: #3C4852;
   font-weight: 600;
-  
+  width: 22vw;
+  justify-content: space-between;
 }
 
 .subscription_Container{
@@ -175,7 +175,8 @@ padding: 0rem 1.2rem;
   font-size: 0.7rem;
   color: #3C4852;
   font-weight: 600;
- 
+  width: 22vw;
+  justify-content: space-between;
 }
 
 .foot{

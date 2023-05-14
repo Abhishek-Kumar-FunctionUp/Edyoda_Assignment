@@ -1,24 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
-  @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-
-
-.main{
+.main {
   display: flex;
   background-color: white;
   justify-content: space-between;
   align-items: center;
-  height:8vh;
+  height: 8vh;
   font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+  font-size: 0.8rem;
+  padding: 0vh 3vw;
 }
 
-.navLeft, .navRight{
+.navLeft,
+.navRight {
   display: flex;
   justify-content: space-around;
   align-items: center;
   width: 30vw;
 }
 
-.logo{
+.logo {
   height: 45px;
   left: 0px;
   top: 0px;
@@ -27,46 +29,44 @@
   font-size: 38px;
   line-height: 45px;
   /* identical to box height */
-  
+
   display: flex;
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
-  
-  background: linear-gradient(90.72deg, #0096FF 42.18%, #0048FF 93.77%);
+
+  background: linear-gradient(90.72deg, #0096ff 42.18%, #0048ff 93.77%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   text-fill-color: transparent;
 }
 
-.option{
+.option {
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1rem;
 }
 
-.btn{
+.btn {
   display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 10px 42px;
-gap: 10px;
-color: white;
-border: none;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  border: none;
+  font-size: 0.8rem;
+  width: 8vw;
+  height: 6vh;
 
-width: 166px;
-height: 40px;
+  background: linear-gradient(266.79deg, #0048ff 4.63%, #0096ff 100%);
+  border-radius: 52px;
 
-background: linear-gradient(266.79deg, #0048FF 4.63%, #0096FF 100%);
-border-radius: 52px;
+  /* Inside auto layout */
 
-/* Inside auto layout */
-
-flex: none;
-order: 2;
-flex-grow: 0;
-
+  flex: none;
+  order: 2;
+  flex-grow: 0;
 }

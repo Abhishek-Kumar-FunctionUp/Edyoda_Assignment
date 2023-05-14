@@ -74,7 +74,7 @@ export default function Form() {
         </div>
       </div>
       <p className={style.plan}>Select your subcription plan</p>
-
+      
       {list.map((el, ind) => (
         <div
           id={el.name}
